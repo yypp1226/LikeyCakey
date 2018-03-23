@@ -41,7 +41,7 @@
         <![endif]-->
 	<!-- Header Area Start -->
 	<!-- 지연 헤더 파일있는 폴더 경로 -->
-	<%@ include file="../common/header.jsp"%>
+	<%@ include file="../default/header.jsp"%>
 	<!-- Header Area End -->
 
 
@@ -704,7 +704,7 @@
 	</section>
 	<!-- Page Content Wraper Area End -->
 	<!-- Footer 따로 뺀 후 페이지에 포함 : 지연 -->
-	<%@ include file="../common/footer.jsp"%>
+	<%@ include file="../default/footer.jsp"%>
 	<!-- FOOTER END -->
 
 	<!-- all js here -->

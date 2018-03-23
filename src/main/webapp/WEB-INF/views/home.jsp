@@ -40,7 +40,7 @@
         <![endif]-->
 		
 		<!-- header include 추가 : 지연 -->
-		<%@ include file ="common/header.jsp" %>
+		<%@ include file ="default/header.jsp" %>
 		
 		
         <!-- Page Content Wraper Area Start -->
@@ -1500,7 +1500,7 @@
         <!-- Page Content Wraper Area End -->
        
        <!-- footer include 부분 : 지연 -->
-       <%@ include file = "common/footer.jsp" %>
+       <%@ include file = "default/footer.jsp" %>
 	   
 	   <!--Quickview Product Start -->
         <div id="quickview-wrapper">
