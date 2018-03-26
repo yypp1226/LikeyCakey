@@ -255,7 +255,7 @@
 		</header>
         <!-- Header Area End -->
         <!-- Page Content Wraper Area Start -->
-		<div class="page-content-wrapper">
+		<div class="page-content-wrapper wrapper-white">
 			<!-- Category Banner Area Start -->
 			<div class="section-titel style-two text-center text-uppercase margin-top">
 					<h3 style="font-family: 'Open Sans', sans-serif;">TOP 3</h3>
@@ -389,6 +389,7 @@
 								</div>
 								<!-- Single Product End -->
 								<!-- Single Product Start -->
+								
 								<div class="col-md-4 col-sm-6">
 									<div class="single-product style-two mb-50">
 										<div class="single-img">
@@ -420,6 +421,7 @@
 											</div>
 							</div>
 								</div>
+								
 								<!-- Single Product End -->
 								<!-- Single Product Start -->
 								<div class="col-md-4 col-sm-6">

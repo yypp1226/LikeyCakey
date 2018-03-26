@@ -3035,7 +3035,7 @@ url('/resources/fonts/NanumGothicBold.woff') format('woff');}
 
 /* 어떤 케이크가 필요하세요? */
 #ensign-nivoslider > div.nivo-caption > div > div > h2 {
-	font-size: 30px;
+	font-size: 2em;
 	margin: 1% 0 2% 0;
 	font-family: 'NanumBarunGothic', 'serif';
 	
@@ -3052,12 +3052,11 @@ url('/resources/fonts/NanumGothicBold.woff') format('woff');}
 
 /* 메인 검색창  */
 #input_search._query {
-    height: 50px;
     padding: 2px 45px 0 0;
     background-color: transparent;
     border-color: transparent;
     font-family: 'NanumBarunGothic', 'serif';
-    font-size: 30px;
+    font-size: 2em;
     color: #fff;
     width:95%;
 }
@@ -3088,7 +3087,7 @@ input::-webkit-input-placeholder { color: #d7d7d7; }
 .main_info.NanumGothic{
 	margin-bottom: 3%;
 	color : white;
-	font-size: 15px;
+	font-size: 1em;
 }
 
 /* 로그인, 회원가입 / 마이페이지, 로그아웃 wrapper */
@@ -3120,10 +3119,9 @@ input::-webkit-input-placeholder { color: #d7d7d7; }
 	
 	background: #fff none repeat scroll 0 0;
     border: 1px solid #ddd;
-    font-size: 12px;
+    font-size: 0.9em;
     font-weight: 600;
     height: 40px;
-    margin-top: 1%;
  
 }
 
@@ -3150,7 +3148,7 @@ background: #9bcaba none repeat scroll 0 0;
 }
 
 
-/* detailView  */
+/* ＊＊＊＊＊ detailView ＊＊＊＊＊  */
 
 
 /* 제목 */
@@ -3185,11 +3183,11 @@ position: absolute;
 }
 
 .detail-intro {
-	
+	font-weight:bold;
 	position: relative;
     padding-bottom: 1%;
     color: #000;
-    font-size: 1.5em;
+    font-size: 1.3em;
     line-height: 2em;
 }
 
@@ -3216,6 +3214,7 @@ position: absolute;
 	color:#777474;
 }
 
+/* detail-view 전체 배경색 */
 .page-content-wrapper {
 	background-color: white;
 }
@@ -3231,7 +3230,8 @@ position: absolute;
 
 
 
-/* shop 관련 버튼  */
+/* -------- shop 관련 버튼 -------- */
+
 .btn-inner {
 	border: 1px solid #9bcaba;
 	display: inline-block;
@@ -3247,9 +3247,9 @@ position: absolute;
 .shop-location {
 	border-bottom: 1px solid #ebebeb;
 	color: #656565;
-    padding-bottom: 28px;
-    margin-bottom: 30px;
-    font-size: 16px;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    font-size: 1em;
 }
 
 .shop-name {
@@ -3263,9 +3263,13 @@ position: absolute;
 	
 }
 
+/* -------- shop 관련 버튼 끝 ---------- */
+
+
+/* 질문글 작성하기 */
 .btn_qna_write {
 	padding: 5px 17px 3px;
-    font-size: 14px;
+    font-size: 0.8em;
     position: absolute;
     top: 0;
     right: 0;
@@ -3273,15 +3277,329 @@ position: absolute;
     background-color: #9bcaba;
 }
 
+/* 등록된 질문 */
 .qna_result {
 	text-align: center;
-	font-size: 1.8em;
+	font-size: 1.5em;
 }
 
+/* 민트색 적용 */
+.detail-text-box strong.mint {
+	color: #9bcaba;
+}
+
+/* 상품설명 - strong */
 .detail-text-box strong {
 	color: #777474;
 }
 
+/* likes */
+.detail-likes-wrap {
+	text-align: right;
+}
+
+.detail-likes {
+	color: #999999;
+	font-size: 1.1em;
+}
+
+/* 상품 개수 ~ 버튼 까지 wrap */
+.detail-input {
+	width:80%;
+}
+
+/* 구매하기, 장바구니 담기 버튼 */
+.detail-btn {
+	width:49.5%;
+}
 
 
+/* ------- 리뷰 -------- */
 
+.review_list{
+	list-style: none;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: middle;
+    display: block;
+}
+
+.review_list li {
+	display: list-item;
+	padding: 3% 0 0 0;
+    font-size: 1em;
+}
+
+.rbox_mine {
+	    padding: 0 0 3% 10%;
+	    position: relative;
+}
+
+/* 호스트 댓글 */
+.rlist .rbox_reply {
+	 padding: 0 0 3% 10%;
+}
+
+/* 호스트 댓글 이름 */
+.rlist .p_tit_reply {
+	font-size: 1.4em;
+	color: #9bcaba;
+	font-weight: bold;
+}
+
+.rlist .p_tit_reply em {
+	font-style: normal;
+}
+
+/* 프로필 사진 */
+.rlist .pf_img {
+	top: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    position: absolute;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* 손님 이름 */
+.rlist .guest_name {
+    margin-right: 10%;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-family: "NanumBarunGothic",sans-serif;
+}
+
+/* 리뷰 내용 */
+.rlist .p_review {
+	font-size: 1.1em;
+	margin-top: 2%;
+    line-height: 1.7em;
+    color: #656565;
+    vertical-align: middle;
+}
+
+/* 리뷰 별점 영역 */
+.rlist .rate_area {
+	position: absolute;
+	top: 1%;
+	right: 0;
+	margin-left: 1%;
+	display: inline-block;
+	color: #c0c0c0;
+	font-size: 1.2em;
+}
+
+.rlist .rate_area .rate.active {
+	color :  #9bcaba;
+}
+
+/* 포토 리뷰*/
+
+.photo_review.swiper_list {
+    margin: 1% -0.5%;
+    overflow: hidden;
+    position: relative;
+}
+/* 
+.swiper_list .flex_wrap {
+	display: block;
+	position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+} */
+
+
+.flex_wrap.fluid .box {
+    width: 33.333%;
+    float:left;
+    position: relative;
+    display: block;
+}
+
+/* .box_space .inner>a {
+	display: block;
+    color: #000;
+} */
+
+.photo_review.swiper_list .box_space .img_box {
+	padding-top: 100%;
+	display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.box_space .img_box .img {
+	background-size: cover;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.space_list .inner {
+	background-color: white;
+}
+
+
+/* 시간 */
+.rlist .rbox_info_base .time_info {
+ 	font-size: 0.8em;
+ 	color: #c0c0c0;
+
+}
+
+/* 페이지네이션 */
+.paging {
+	font-size: 1.2em;
+	vertical-align: middle;
+}
+
+.paging a {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 0.3%;
+	color : #767676;
+}
+
+.paging a.active {
+	color:#9bcaba;
+	font-weight: bold;
+	
+}
+
+.paging .fa{
+	font-size: 2em;
+	color: #d4d4d4;
+}
+
+/* 호스트 페이지로 이동 */
+
+.host_profile {
+	display: table;
+    position: relative;
+    width: 80%;
+    vertical-align: middle;
+}
+
+.host_profile .host_area {
+	vertical-align: middle;
+	display: table;
+    position: relative;
+	padding-left: 20%;
+    min-height: 100px;
+}
+
+.host_profile .pf_left {
+	width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    border-radius: 110px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    background-size: cover;
+    background-position: center center;
+    vertical-align: middle;
+}
+
+.host_profile .btn-inner {
+	width: 45%;
+    margin: 1% 0 0 20%;
+}
+
+.host_profile .pf_host {
+	margin-top: 0.5%;
+    font-size: 1em;
+    color: #9bcaba;
+}
+
+.host_profile .pf_name {
+	display: block;
+	margin-top: 0.2%;
+    font-size: 1.5em;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+.host_profile .inner {
+	padding : 5% 4%;
+}
+
+/* 홈 배경 흰색 */
+.page-content-wrapper.wrapper-white {
+	background-color: white;
+}
+
+.story_list {
+    width: 80%;
+    position: relative;
+}
+
+.story_list .lst_wrap {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.story_list .lst_story {
+	overflow: hidden;
+    position: relative;
+    padding: 0;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.story_list .lst_story .inner {
+    border: 0;
+    background-color: transparent;
+    padding: 5% 1% 5% 30%;
+    height: 20%;
+    float: left;
+    width: 100%;
+}
+
+.story_list .img_story {
+    top: 40px;
+    width: 234px;
+    height: 132px;
+    position: absolute;
+    left: 0;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.story_list .tit_story {
+    display: block;
+    font-size: 20px;
+    height: 22px;
+    line-height: 22px;
+    font-family: "NanumBarunGothicBold",sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.story_list .lst_story .inner {
+    float: left;
+    width: 100%;
+}
+
+.story_list .editor_story {
+    position: relative;
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #656565;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+ 

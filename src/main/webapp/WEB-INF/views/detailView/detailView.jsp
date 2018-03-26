@@ -117,6 +117,11 @@
 								</div>
 							</div>
 							
+							<div class="detail-likes-wrap">
+								<!-- 좋아요 누르면 fa fa-heart-o에서 fa-heart로 변경될 것 -->
+								<a href=# class="detail-likes"><i class="fa fa-heart-o">&nbsp;10 Likes </i></a>
+							</div>
+							
 							<div class="category mt-50">
 										<h4>TAGS</h4>
 										<div class="tag-list mt-30 text-uppercase">
@@ -200,8 +205,8 @@
 									</ul>
 								</div>
 								<div class="input-content mb-50">
-									<label>상품 개수</label>
 									<div class="quantity">
+									<label>상품 개수</label>
 									
 										
 										<!-- 상품 + / - 제이쿼리에서 처리할 것 -->
@@ -212,10 +217,13 @@
 										 
 									</div>
 									
-									<input placeholder="케이크에 추가하실 문구를 입력해주세요." type="text" class="detail-text">
+									<div class="detail-input">
 									
-									<button type="submit">구매하기</button>
-									<button type="submit">장바구니 담기</button>
+									<input placeholder="케이크에 추가하실 문구를 입력해주세요." type="text" class="detail-text mt-10">
+ 									<button type="submit" class="detail-btn">구매하기</button>
+									<button type="submit" class="detail-btn">장바구니 담기</button>
+									
+									</div>
 									
 								</div>
 								<div class="sngle-pro-socl">
@@ -308,7 +316,7 @@
 							<span class="btn-inner mr-10"><i class="fa fa-phone mr-10"></i>전화걸기</span>
 						</a>
 						<a href=#> 
-							<span class="btn-inner"><i class="fa fa-phone mr-10"></i>길찾기</span>
+							<span class="btn-inner"><i class="fa fa-location-arrow mr-10"></i>길찾기</span>
 						</a>
 					</div>
 				</div>
@@ -321,56 +329,195 @@
 			<!-- shop 소개 끝 -->
 
 
+
+		<div class="detail-text-box mt-150">
+			<h3 class="detail-intro mtb-40">네이버 블로그 리뷰</h3>
+			
+		<div class="story_box">
+						<div class="story_list">
+							<!-- [D] .lst_wrap의 가로 사이즈 : lst_stroy 가로 * 개수px-->
+							<div class="lst_wrap">
+							
+								<!-- [D] 썸네일 없을 경우 class="no_thumb" 추가, .lst의 width값 : 브라우저 가로 사이즈 - 20px -->
+								<div class="lst_story ">
+									<a href="http://blog.naver.com/madurh/220876685585" target="_blank" class="inner">
+										<!-- [D] 이미지 inline으로 background 처리 -->
+										
+										<span style="background-image: url(https://scloud.pstatic.net/20170129_215/1485675201358TIWEn_JPEG/KakaoTalk_20161202_193029356.jpg);" class="img_story"></span>
+										
+										<strong class="tit_story">홍대 파티룸 서울 파티룸 그라운드 연말파티장소 최적화 추천합니다!</strong>
+										<dl class="editor_story">
+											<dt>출처</dt>
+											<dd>http://blog.naver.com/madurh/220876685585</dd>
+										</dl>
+										<p class="p_story">홍대와 합정 그리고 상수라는 삼각형 안에는 무수히 많은 맛집과 멋집들이 존재한다. 서울에 핫한 동네야 ...</p>
+									</a>
+								</div>
+							
+								<!-- [D] 썸네일 없을 경우 class="no_thumb" 추가, .lst의 width값 : 브라우저 가로 사이즈 - 20px -->
+								<div class="lst_story ">
+									<a href="http://blog.naver.com/2id-t/220878390584" target="_blank" class="inner">
+										<!-- [D] 이미지 inline으로 background 처리 -->
+										
+										<span style="background-image: url(https://scloud.pstatic.net/20170129_80/1485675206167fE7f0_JPEG/20161205_132929.jpg);" class="img_story"></span>
+										
+										<strong class="tit_story">파티룸 그라운드 A ROOM 소개</strong>
+										<dl class="editor_story">
+											<dt>출처</dt>
+											<dd>http://blog.naver.com/2id-t/220878390584</dd>
+										</dl>
+										<p class="p_story">안녕하세요. 스폰서 입니다. 이번에 저희가 운영하는 공간인 파티룸 그라운드에 대한 소개를 해드리려고 포...</p>
+									</a>
+								</div>
+							
+								<!-- [D] 썸네일 없을 경우 class="no_thumb" 추가, .lst의 width값 : 브라우저 가로 사이즈 - 20px -->
+								<div class="lst_story ">
+									<a href="http://blog.naver.com/2id-t/220879438622" target="_blank" class="inner">
+										<!-- [D] 이미지 inline으로 background 처리 -->
+										
+										<span style="background-image: url(https://scloud.pstatic.net/20170129_204/1485675211113tc2HQ_JPEG/20161206_132058.jpg);" class="img_story"></span>
+										
+										<strong class="tit_story">파티룸 그라운드 B ROOM 소개</strong>
+										<dl class="editor_story">
+											<dt>출처</dt>
+											<dd>http://blog.naver.com/2id-t/220879438622</dd>
+										</dl>
+										<p class="p_story">안녕하세요. 그라운드를 운영하고 있는 스폰서입니다. 어제는 A ROOM에 대해 소개를 드렸는데요. 오늘...</p>
+									</a>
+								</div>
+							
+								<!-- [D] 썸네일 없을 경우 class="no_thumb" 추가, .lst의 width값 : 브라우저 가로 사이즈 - 20px -->
+								<div class="lst_story ">
+									<a href="http://blog.naver.com/madurh/220907943695" target="_blank" class="inner">
+										<!-- [D] 이미지 inline으로 background 처리 -->
+										
+										<span style="background-image: url(https://scloud.pstatic.net/20170129_24/1485675215730bG9dp_JPEG/KakaoTalk_Moim_5VRBpSLAramZgqQ4ThJiftqJx8WciR.jpg);" class="img_story"></span>
+										
+										<strong class="tit_story">서울 파티룸 홍대 그라운드 이만한 곳 어디에도 없다</strong>
+										<dl class="editor_story">
+											<dt>출처</dt>
+											<dd>http://blog.naver.com/madurh/220907943695</dd>
+										</dl>
+										<p class="p_story">아직까지 크리스마스 분위기 물씬 나는 서울 파티룸 그라운드. 지난 번에 다녀온 후기가 엄청난 반응을 이...</p>
+									</a>
+								</div>
+							
+								<!-- [D] 썸네일 없을 경우 class="no_thumb" 추가, .lst의 width값 : 브라우저 가로 사이즈 - 20px -->
+								<div class="lst_story ">
+									<a href="https://blog.naver.com/2id-t/221205699245" target="_blank" class="inner">
+										<!-- [D] 이미지 inline으로 background 처리 -->
+										
+										<span style="background-image: url(https://scloud.pstatic.net/20180210_122/1518246655801CTuPx_JPEG/KakaoTalk_20180210_153121506.jpg);" class="img_story"></span>
+										
+										<strong class="tit_story">홍대 파티룸 그라운드 보드게임 업그레이드 완료!</strong>
+										<dl class="editor_story">
+											<dt>출처</dt>
+											<dd>https://blog.naver.com/2id-t/221205699245</dd>
+										</dl>
+										<p class="p_story">안녕하세요. 파티룸 그라운드를 운영하는 인디스폰서 입니다. 오픈 1주년을 맞이하여 그동안 낡았던 보드게...</p>
+									</a>
+								</div>
+							
+							</div>
+							<div class="swiper_pagination"></div>
+						</div>
+					</div>
+				
+				
+				
+				
 		</div>
 		<!-- 상품 디테일 끝 -->
 
+
 		<!-- 리뷰 시작 -->
-		<div class="reply-comment-area ml-100 mr-150 mb-100">
-			<h3>3 개의 후기</h3>
-			<div class="single-reply">
-				<div class="comment-author">
-					<img alt="" src="/resources/img/blog/comment.jpg">
-				</div>
-				<div class="comment-info">
-					<div class="comment-author-info">
-						<a href="#"><b>admin</b></a> Post author <span>October 6,
-							2014 at 1:38 am</span> <a href="#">Reply</a>
-					</div>
-					<p>just a nice post</p>
-				</div>
-			</div>
-			<div class="single-reply user-comment">
-				<div class="comment-author">
-					<img alt="" src="/resources/img/blog/comment-2.jpg">
-				</div>
-				<div class="comment-info">
-					<div class="comment-author-info">
-						<a href="#"><b>demo</b></a> Post author <span>October 6,
-							2014 at 1:38 am</span> <a href="#">Reply</a>
-					</div>
-					<p>just a nice post</p>
-				</div>
-			</div>
-			<div class="single-reply">
-				<div class="comment-author">
-					<img alt="" src="/resources/img/blog/comment.jpg">
-				</div>
-				<div class="comment-info">
-					<div class="comment-author-info">
-						<a href="#"><b>admin</b></a> Post author <span>October 6,
-							2014 at 1:38 am</span> <a href="#">Reply</a>
-					</div>
-					<p>just a nice post</p>
-				</div>
-			</div>
-		</div>
 		
+		<div class="detail-text-box mt-100 mb-100">
+		<h2 class="detail-intro">
+				이용 후기 <strong class="mint">4개</strong>
+				<i class="fa fa-circle ml-10 mr-10" style="font-size: 0.2em; color:#999999; vertical-align: middle"></i> 
+				평균 평점 <strong class="mint">5.0</strong>
+		</h2>
+
+		<div>
+			<ul class="review_list" id="review_list">
+				<li class="rlist ">
+					<div class="rbox_mine">
+						<span class="pf_img"
+							style="background-image: url(/resources/img/client/1.png)"></span>
+						<strong class="guest_name">ohhapp***</strong>
+						<p class="p_review">완전 최고!! 정말 맛있습니다!!! 배송도 원하는 시간에 오고 짱이에요 추천합니다~!</p>
+
+							<div class="space_list swiper_list photo_review">
+								<div class="flex_wrap column3 fluid">
+									<article class="box box_space">
+										<div class="inner">
+											<a href="/resources/img/single-product/1.jpg"
+												class="_review_img_link" target="_blank"
+												data-img-path="/resources/img/single-product/1.jpg">
+												<div class="img_box">
+													<span class="img"
+														style="background-image: url(/resources/img/single-product/1.jpg)">
+													</span> <span class="border"></span>
+												</div>
+											</a>
+										</div>
+									</article>
+								</div>
+							</div>
+							
+							
+							<div class="rbox_info_base">
+							<span class="time_info">2017.01.02. 12:21:25</span>
+						</div>
+						<span class="rate_area"> <span class="blind">평점</span> 
+						<span class="rate active"><i class="fa fa-star"></i></span>
+							<span class="rate active"><i class="fa fa-star"></i></span>
+							<span class="rate active"><i class="fa fa-star"></i></span>
+							<span class="rate active"><i class="fa fa-star"></i></span>
+							<span class="rate active"><i class="fa fa-star"></i></span>
+						</span>
+					</div>
+					<div class="rbox_reply">
+						<p class="p_tit_reply">
+							<em>웰리스하우스</em>님의 댓글
+						</p>
+						<p class="p_review">후기 감사드립니다 ^^ 즐거운 연말 모임이 되셨다니 정말 기쁩니다 !!
+							2017년 항상 좋은 일 가득하시고, 다음에 또 찾아주세요 :) 새해 복 많이 받으세요~!!</p>
+						<div class="rbox_info_base">
+							<p class="time_info">2017.01.02. 16:34:23</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+				<div class="paging text-center">
+				
+					<a href="javascript:void(0);" class="btn_prev_list_end" data-page="-4"> 
+					<i class="fa fa-angle-double-left"></i></a>
+					<a href="javascript:void(0);" class="btn_prev_list" data-page="0">
+					<i class="fa fa-angle-left mr-10"></i></a>
+					
+					<a href="javascript:void(0);" class="num active" data-page="1">1</a>
+					<a href="javascript:void(0);" class="num" data-page="2">2</a>
+					<a href="javascript:void(0);" class="num" data-page="3">3</a>
+					<a href="javascript:void(0);" class="num" data-page="4">4</a>
+					<a href="javascript:void(0);" class="num" data-page="5">5</a>
+					
+					<a href="javascript:void(0);" class="btn_next_list active" data-page="2">
+					<i class="fa fa-angle-double-right ml-10"></i></a>
+					<a href="javascript:void(0);" class="btn_next_list_end active" data-page="6">
+					<i class="fa fa-angle-right"></i></a>
+				</div>
+
+			</div>
+	</div>
+
 		<!-- 리뷰 끝 -->
 		
 		<!-- 문의 시작 -->
-		<div class="detail-text-box ml-100 mr-150 mb-100" id="qna" style="">
+		<div class="detail-text-box mb-70" id="qna" style="">
 			<h2 class="detail-intro">
-				Q&amp;A&nbsp; <strong><em>0</em>개</strong> 
+				Q&amp;A&nbsp; <strong><em>0</em>개</strong>  		
 				<!-- 모달창 처리하기  -->
 				<a href="#" class="btn_qna_write"><i class="fa fa-pencil mr-10"></i> <span>질문 작성하기</span></a>
 			</h2>
@@ -379,167 +526,69 @@
 			</div>
 		</div>
 		<!-- 문의 끝 -->
+		
+		
+		<!-- 호스트 프로필 시작 -->
+		<div class="host_profile mb-100">
+			<div class="inner">
 
-		<!-- On Sale Product Area Start -->
-			<section class="onslepro-area">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4 col-sm-6 res-mb-sm-30">
-							<div class="on-sale-heading">
-								<h3>TOP SALE</h3>
-							</div>
-							<!-- On sale product single -->
-							<div class="onsale-single mb-30">
-								<div class="onsale-img">
-									<img src="/resources/img/onsale/1.jpg" alt="">
-								</div>
-								<div class="onsale-content">
-									<span>SUN-SKIN</span>
-									<h6><a href="single-product.html">Skiny Shirt with Long</a></h6>
-									<div class="price-box">
-										<span class="old-price">$90.00</span>
-										<span class="new-price">  $80.00</span>
-									</div>
-								</div>
-							</div>
-							<!-- On sale product single -->
-							<!-- On sale product single -->
-							<div class="onsale-single mb-30">
-								<div class="onsale-img">
-									<img src="/resources/img/onsale/2.jpg" alt="">
-								</div>
-								<div class="onsale-content">
-									<span>Man shirt</span>
-									<h6><a href="single-product.html">Skiny Shirt with Long</a></h6>
-									<div class="price-box">
-										<span class="old-price">$35.00</span>
-									</div>
-								</div>
-							</div>
-							<!-- On sale product single -->
-							<!-- On sale product single -->
-							<div class="onsale-single">
-								<div class="onsale-img">
-									<img src="/resources/img/onsale/3.jpg" alt="">
-								</div>
-								<div class="onsale-content">
-									<span>Man shirt</span>
-									<h6><a href="single-product.html">Skiny Shirt with Long</a></h6>
-									<div class="price-box">
-										<span class="old-price">$90.00</span>
-									</div>
-								</div>
-							</div>
-							<!-- On sale product single -->
-						</div>
-						<div class="col-md-4 col-sm-6 res-mb-sm-30">
-							<div class="on-sale-heading">
-								<h3>NEW ARRIVAL</h3>
-							</div>
-							<!-- On sale product single -->
-							<div class="onsale-single mb-30">
-								<div class="onsale-img">
-									<img src="/resources/img/onsale/4.jpg" alt="">
-								</div>
-								<div class="onsale-content">
-									<span>SUN-SKIN</span>
-									<h6><a href="single-product.html">Skiny Shirt with Long</a></h6>
-									<div class="price-box">
-										<span class="old-price">$90.00</span>
-										<span class="new-price">  $80.00</span>
-									</div>
-								</div>
-							</div>
-							<!-- On sale product single -->
-							<!-- On sale product single -->
-							<div class="onsale-single mb-30">
-								<div class="onsale-img">
-									<img src="/resources/img/onsale/5.jpg" alt="">
-								</div>
-								<div class="onsale-content">
-									<span>Man shirt</span>
-									<h6><a href="single-product.html">Skiny Shirt with Long</a></h6>
-									<div class="price-box">
-										<span class="old-price">$35.00</span>
-									</div>
-								</div>
-							</div>
-							<!-- On sale product single -->
-							<!-- On sale product single -->
-							<div class="onsale-single">
-								<div class="onsale-img">
-									<img src="/resources/img/onsale/6.jpg" alt="">
-								</div>
-								<div class="onsale-content">
-									<span>Man shirt</span>
-									<h6><a href="single-product.html">Skiny Shirt with Long</a></h6>
-									<div class="price-box">
-										<span class="old-price">$90.00</span>
-									</div>
-								</div>
-							</div>
-							<!-- On sale product single -->
-						</div>
-						<div class="col-md-4 hidden-sm hidden-xs">
-							<div class="on-sale-heading">
-								<h3>best sale</h3>
-							</div>
-							<!-- On sale product single -->
-							<div class="onsale-single mb-30">
-								<div class="onsale-img">
-									<img src="/resources/img/onsale/7.jpg" alt="">
-								</div>
-								<div class="onsale-content">
-									<span>SUN-SKIN</span>
-									<h6><a href="single-product.html">Skiny Shirt with Long</a></h6>
-									<div class="price-box">
-										<span class="old-price">$90.00</span>
-										<span class="new-price">  $80.00</span>
-									</div>
-								</div>
-							</div>
-							<!-- On sale product single -->
-							<!-- On sale product single -->
-							<div class="onsale-single mb-30">
-								<div class="onsale-img">
-									<img src="/resources/img/onsale/8.jpg" alt="">
-								</div>
-								<div class="onsale-content">
-									<span>Man shirt</span>
-									<h6><a href="single-product.html">Skiny Shirt with Long</a></h6>
-									<div class="price-box">
-										<span class="old-price">$35.00</span>
-									</div>
-								</div>
-							</div>
-							<!-- On sale product single -->
-							<!-- On sale product single -->
-							<div class="onsale-single">
-								<div class="onsale-img">
-									<img src="/resources/img/onsale/9.jpg" alt="">
-								</div>
-								<div class="onsale-content">
-									<span>Man shirt</span>
-									<h6><a href="single-product.html">Skiny Shirt with Long</a></h6>
-									<div class="price-box">
-										<span class="old-price">$90.00</span>
-									</div>
-								</div>
-							</div>
-							<!-- On sale product single -->
-						</div>
+				<div class="host_area" id="_host_map">
+					<div
+						style="background-image: url(https://scloud.pstatic.net/20161202_47/14806634454930axmA_PNG/015.png);"
+						class="pf_left"></div>
+					<div class="pf_right">
+						<strong class="pf_host">HOST</strong> <span class="pf_name">그라운드</span>
+						<p class="pf_txt">합정 파티룸 겸 스튜디오 [GROUND] 입니다.</p>
 					</div>
 				</div>
-			</section>
-			
-			
-			
-			
-			
-			<!-- On Sale Product Area End -->
-		</section>
+				<a href="#"> <span class="btn-inner"> 호스트 페이지로 이동  <i class="fa fa-arrow-right ml-10"></i></span>
+				</a>
+
+			</div>
+		</div>
+		<!-- 호스트 프로필 끝 -->
 		
+		<!-- 호스트의 다른 케이크  시작 -->
+		<div class="detail-text-box mb-100" id="qna" style="">
+			<h2 class="detail-intro"> 뚜레쥬르의 다른 케이크 </h2>
+		</div>
 		
+		<div class="row">
+		<div class="col-md-4">
+			<div class="single-product style-two mb-50">
+				<div class="single-img">
+					<a href="#"><img src="/resources/img/product-tab/2.jpg" alt="" /></a>
+					<div class="hover-content text-center">
+						<ul>
+							<li><a href="#" class="icon_cart_alt "></a></li>
+							<li><a href="#" class="icon_heart_alt"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="young-product-details mt-20">
+					<h4>
+						<a href="single-product.html">들어는 보셧나 마카롱 케이크</a>
+					</h4>
+					<div class="young-product-details-tag">
+						<i class="fa fa-map-marker"></i> <span
+							class="young-product-details-tag-place">서울시 북구</span> <i
+							class="fa fa-tag"></i> <span
+							class="young-product-details-tag-place-detail">#마카롱</span> <span
+							class="young-product-details-tag-place-detail">#마카롱이라구?</span> <span
+							class="young-product-details-tag-place-detail">#말도안돼</span>
+					</div>
+					<div class="young-product-details-price">
+						<span>33,000 원</span> <i class="fa fa-star"></i> <i
+							class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+							class="fa fa-star"></i> <i class="fa fa-star"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- 호스트의 다른 케이크  시작 -->
+
+	</section>
 		
         <!-- 푸터 -->
         <jsp:include page="../default/footer.jsp" flush="false"/>
